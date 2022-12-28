@@ -10,7 +10,7 @@ export const Home = () => {
     return (
         <>
             <Search/>
-            <div className="row">
+            <div className="row mt-4">
                 {cards.map(card => {
                     return (
                         <div className="col-sm-4 mb-4" key={card}>
