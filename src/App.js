@@ -19,7 +19,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/about" element={<About/>}/>
-              <Route path="/profile" element={<Profile/>}/>
+              <Route path="/profile/:name" element={<Profile/>}/>
             </Routes>
           </div>
         </BrowserRouter>
